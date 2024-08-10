@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c97554f-3ea8-48e4-a6c1-1d6400447c3e" name="Changes" comment="project">
-      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 2/task 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 2/task 10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 2/task 11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 2/task 12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 2/task 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 2/task 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 2/task 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 2/task 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 2/task 6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 2/task 7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 2/task 8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 2/task 9.html" afterDir="false" />
+    <list default="true" id="3c97554f-3ea8-48e4-a6c1-1d6400447c3e" name="Changes" comment="lesson 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +83,7 @@
       <workItem from="1723145037251" duration="9269000" />
       <workItem from="1723218798716" duration="9749000" />
       <workItem from="1723266485121" duration="5797000" />
+      <workItem from="1723289835937" duration="160000" />
     </task>
     <task id="LOCAL-00001" summary="project">
       <option name="closed" value="true" />
