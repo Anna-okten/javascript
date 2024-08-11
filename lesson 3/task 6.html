@@ -6,6 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        .product-card img{
+            width: 200px;
+        }
+    </style>
 </head>
 <body>
 <script>
@@ -29,14 +34,14 @@
         {
             title: 'tea',
             price: 15,
-            image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
+            image: 'https://img.freepik.com/premium-photo/a-green-box-with-the-word-quot-fris-quot-on-it_1236203-7613.jpg?size=626&ext=jpg'
         },
     ];
 for (const product of products){
-    document.write( <div class="product-card">
-        <h3 class="product-title"> ${product.title} Price-${product.price}</h3>
+    document.write( `<div class="product-card">
+        <h3 class="product-title"> ${product.title} - Price ${product.price} UAN</h3>
         <img src="${product.image}" alt="${product.title}" class="product-image">
-    </div> );
+    </div>` )
 }
 
 
