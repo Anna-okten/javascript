@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3c97554f-3ea8-48e4-a6c1-1d6400447c3e" name="Changes" comment="lesson 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 3/task 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 3/task 6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 3/task 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 3/task 5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 3/task 7.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 3/task 7.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +30,12 @@
     &quot;assignee&quot;: &quot;Anna-okten&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Anna-okten/javascript.git&quot;,
-    &quot;accountId&quot;: &quot;3073022b-266e-43f8-8064-d24c4bf61223&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Anna-okten/javascript.git",
+    "accountId": "c9c99ba2-f684-4cf3-b26c-fed0b8be47f6"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -92,6 +93,7 @@
       <workItem from="1723308390223" duration="692000" />
       <workItem from="1723363880320" duration="8856000" />
       <workItem from="1723395053658" duration="15541000" />
+      <workItem from="1723456026792" duration="7900000" />
     </task>
     <task id="LOCAL-00001" summary="project">
       <option name="closed" value="true" />
