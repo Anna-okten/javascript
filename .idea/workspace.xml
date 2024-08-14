@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c97554f-3ea8-48e4-a6c1-1d6400447c3e" name="Changes" comment="lesson 3">
+    <list default="true" id="3c97554f-3ea8-48e4-a6c1-1d6400447c3e" name="Changes" comment="lesson4">
+      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 4/task 10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 4/task 11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 4/task 12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 4/task 13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 4/task 5 -6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 4/task 7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 4/task 8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoomework/lesson 4/task 9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 3/task 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 3/task 5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 3/task 7.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 3/task 7.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +36,12 @@
     &quot;assignee&quot;: &quot;Anna-okten&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Anna-okten/javascript.git",
-    "accountId": "c9c99ba2-f684-4cf3-b26c-fed0b8be47f6"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Anna-okten/javascript.git&quot;,
+    &quot;accountId&quot;: &quot;c9c99ba2-f684-4cf3-b26c-fed0b8be47f6&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -93,7 +99,10 @@
       <workItem from="1723308390223" duration="692000" />
       <workItem from="1723363880320" duration="8856000" />
       <workItem from="1723395053658" duration="15541000" />
-      <workItem from="1723456026792" duration="7900000" />
+      <workItem from="1723456026792" duration="7962000" />
+      <workItem from="1723613649824" duration="1052000" />
+      <workItem from="1723614729248" duration="17141000" />
+      <workItem from="1723636159254" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="project">
       <option name="closed" value="true" />
@@ -127,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723412680226</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1723471133450</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723471133450</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +155,7 @@
     <MESSAGE value="project" />
     <MESSAGE value="lesson 2" />
     <MESSAGE value="lesson 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 3" />
+    <MESSAGE value="lesson3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson3" />
   </component>
 </project>
