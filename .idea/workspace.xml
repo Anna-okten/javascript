@@ -49,7 +49,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Альбина/IdeaProjects/javascript 08.2024&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/a.domeshkina/IdeaProjects/javascript&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -96,6 +96,9 @@
       <workItem from="1723614729248" duration="17141000" />
       <workItem from="1723636159254" duration="64000" />
       <workItem from="1723636286632" duration="724000" />
+      <workItem from="1723637167974" duration="283000" />
+      <workItem from="1723637559711" duration="368000" />
+      <workItem from="1723644700635" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="project">
       <option name="closed" value="true" />
@@ -145,7 +148,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723636734556</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lesson4">
+      <option name="closed" value="true" />
+      <created>1723637200356</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723637200356</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lesson4">
+      <option name="closed" value="true" />
+      <created>1723637341576</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723637341576</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
