@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+
+    // let plan =(text,write) =>{
+    //     document.write('<ui>')
+    //     for (let a = 0; a < write; a++){
+    //         document.write(` <li>${text}</li>`);
+    //     }
+    //     document.write('</ul>');
+    // }
+    // plan (`навчання`,7);
+
+    // let school=(arrayofPrimitives)=>{
+    //     document.write(`<ul>`);
+    //     for (const item of arrayofPrimitives ){
+    //         document.write(` <li>${item}</li>`);
+    //     }
+    //     document.write(`</ul>`)
+    // }
+    // school([5,12,9, 'teacher',false])
+
+
+    // let array=(users)=>{
+    //     for (const user of users) {
+    //         document.write(`<div>${user.id} ${user.name} ${user.age}</div>`)
+    //
+    //     }
+    // }
+    // array([
+    //     {id:1,name:'max',age:35},
+    //     {id:2,name:'max',age:35},
+    //     {id:3,name:'max',age:35},
+    //     {id:4,name:'max',age:35},
+    // ])
+
+
+    let arrayMax =(numbers)=>{
+        let min = numbers[0];
+        for (let i=1; i< numbers.length; i++){
+            let number= numbers [i];
+            if (number < min){
+                min = number
+            }
+        }
+        return min;
+    }
+    console.log(arrayMax([89,45,-76,31,120]));
+
+
+
+</script>
+</body>
+</html>
