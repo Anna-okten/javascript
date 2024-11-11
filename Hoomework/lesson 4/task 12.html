@@ -10,16 +10,18 @@
 <body>
 <script>
 
+    function swap(arr,index1,index2){
+       let temp = arr[index1];
+       arr[index1]= arr[index2];
+       arr[index2]=temp;
 
-   for (let i = 0; i <10; i++) {
-       document.write(`<div> Не можна довго в казку гратись.</div>`);
+       return arr;
+    }
 
-   }
+    console.log(swap([11,22,33,44],3,1));
 
-    // for (let i = 0; i <10; i++) {
-    //     document.write(`<div> Увійшовши до вітальні  ${i}</div>`);
-    //
-    // }
+
+
 </script>
 </body>
 </html>

@@ -11,15 +11,14 @@
 <script>
 
 
-   for (let i = 0; i <10; i++) {
-       document.write(`<div> Не можна довго в казку гратись.</div>`);
-
-   }
-
-    // for (let i = 0; i <10; i++) {
-    //     document.write(`<div> Увійшовши до вітальні  ${i}</div>`);
-    //
-    // }
+    function school(arrayofPrimitives){
+document.write(`<ul>`);
+       for (const item of arrayofPrimitives ){
+           document.write(` <li>${item}</li>`);
+           }
+        document.write(`</ul>`)
+       }
+school([5,12,9, 'teacher',false])
 </script>
 </body>
 </html>

@@ -10,16 +10,19 @@
 <body>
 <script>
 
+    function array(users){
+        for (const user of users) {
+            document.write(`<div>${user.id} ${user.name} ${user.age}</div>`)
 
-   for (let i = 0; i <10; i++) {
-       document.write(`<div> Не можна довго в казку гратись.</div>`);
+        }
+    }
+    array([
+    {id:1,name:'max',age:35},
+    {id:2,name:'olga',age:29},
+    {id:3,name:'vlad',age:40},
+    {id:4,name:'anna',age:37},
+])
 
-   }
-
-    // for (let i = 0; i <10; i++) {
-    //     document.write(`<div> Увійшовши до вітальні  ${i}</div>`);
-    //
-    // }
 </script>
 </body>
 </html>
