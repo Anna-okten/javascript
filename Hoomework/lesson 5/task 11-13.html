@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+
+
+    // let sum=(arr)=>{
+    //     let check = 0;
+    //     for (const item of arr) {
+    //         check = check + item;
+    //     }
+    //     return check;
+    // }
+    // console.log( sum([1,2,10]));
+
+
+
+
+    let swap=(arr,index1,index2)=>{
+        let temp= arr[index1];
+        arr[index1]= arr[index2];
+        arr[index2]=temp;
+
+        return arr;
+    }
+
+    console.log(swap([11,22,33,44],3,1));
+
+
+
+
+    // let exchange=(sumUAH,currencyValues,exchangeCurrency)=>{
+    //     let chosenCurrency;
+    //     for (const item of currencyValues ){
+    //         if (item.currency === exchangeCurrency) {
+    //             chosenCurrency = item;
+    //         }
+    //     }
+    //     let result =sumUAH/chosenCurrency.value
+    //     return result;
+    //
+    // }
+    // console.log (exchange(10000,[{currency:'USD',value:25},{currency:'EUR',value:42}],'USD'));
+
+</script>
+</body>
+</html>
