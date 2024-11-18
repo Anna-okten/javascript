@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+//   task 1
+    function User( id, name, surname , email, phone) {
+        this.id=id;
+        this. name= name;
+        this.surname= surname;
+        this.email= email;
+        this.phone= phone;
+    }
+//
+//       const user= new User (1,'max', 'kokos', 'ghjlkijl@gmail.com','+329495677677');
+//     console.log(user)
+// let users= [
+//     new User (1,'max', 'kokos', 'ghjlkijl@gmail.com','+329495677677'),
+//     new User (2,'pol', ' yjgu', 'lkljjhl@gmail.com','+385646989966'),
+//     new User (3,'anna', 'liuu', 'sfkrgtoy@gmail.com','+3845485785454'),
+//     new User (4,'oleg', 'jynnty', 'tkrpykpkhh@gmail.com','+3816593322254'),
+//     new User (5,'kolya', 'mybtrgrd', 'lhtpyoprti@gmail.com','+329013166456'),
+//     new User (6,'olga', 'ulik.k', 'kpjkhg@gmail.com','+32949135648585'),
+//     new User (7,'tom', 'lyutuh', 'fyo8ouop@gmail.com','+383231665659696'),
+//     new User (8,'vasya', 'fhgkuol', 'goiljpoip@gmail.com','+383215446747'),
+//     new User (9,'vera', 'mognyft', 'toiupip@gmail.com','+3832313666447'),
+//     new User (10,'nik', 'ynbv', 'dyjgkuyiuyi@gmail.com','+32254466446678'),
+//
+// ]
+// console.log(users)
+
+
+//   task 2
+// let users= [
+//     new User (1,'max', 'kokos', 'ghjlkijl@gmail.com','+329495677677'),
+//     new User (2,'pol', ' yjgu', 'lkljjhl@gmail.com','+385646989966'),
+//     new User (3,'anna', 'liuu', 'sfkrgtoy@gmail.com','+3845485785454'),
+//     new User (4,'oleg', 'jynnty', 'tkrpykpkhh@gmail.com','+3816593322254'),
+//     new User (5,'kolya', 'mybtrgrd', 'lhtpyoprti@gmail.com','+329013166456'),
+//     new User (6,'olga', 'ulik.k', 'kpjkhg@gmail.com','+32949135648585'),
+//     new User (7,'tom', 'lyutuh', 'fyo8ouop@gmail.com','+383231665659696'),
+//     new User (8,'vasya', 'fhgkuol', 'goiljpoip@gmail.com','+383215446747'),
+//     new User (9,'vera', 'mognyft', 'toiupip@gmail.com','+3832313666447'),
+//     new User (10,'nik', 'ynbv', 'dyjgkuyiuyi@gmail.com','+32254466446678'),
+//
+// ]
+//  function filterFunction(user){
+//     return user.id % 2===0;
+//  }
+// const ffilterUsers= users.filter(filterFunction );
+// console.log(ffilterUsers);
+
+
+
+//   task 3
+let users= [
+    new User (1,'max', 'kokos', 'ghjlkijl@gmail.com','+329495677677'),
+    new User (6,'pol', ' yjgu', 'lkljjhl@gmail.com','+385646989966'),
+    new User (9,'anna', 'liuu', 'sfkrgtoy@gmail.com','+3845485785454'),
+    new User (2,'oleg', 'jynnty', 'tkrpykpkhh@gmail.com','+3816593322254'),
+    new User (5,'kolya', 'mybtrgrd', 'lhtpyoprti@gmail.com','+329013166456'),
+    new User (8,'olga', 'ulik.k', 'kpjkhg@gmail.com','+32949135648585'),
+    new User (10,'tom', 'lyutuh', 'fyo8ouop@gmail.com','+383231665659696'),
+    new User (3,'vasya', 'fhgkuol', 'goiljpoip@gmail.com','+383215446747'),
+    new User (7,'vera', 'mognyft', 'toiupip@gmail.com','+3832313666447'),
+    new User (4,'nik', 'ynbv', 'dyjgkuyiuyi@gmail.com','+32254466446678'),
+]
+ function sorter(user1,user2){
+        return user1.id -user2.id;
+ }
+   console.log(users.sort(sorter));
+
+</script>
+</body>
+</html>

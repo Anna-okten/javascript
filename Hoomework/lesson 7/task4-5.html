@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+// task 4
+    function Client (id, name, surname , email, phone, order){
+        this.id=id;
+        this. name= name;
+        this.surname= surname;
+        this.email= email;
+        this.phone= phone;
+        this.order= order;
+    }
+
+//     let clients=[
+//         new Client (1,'max', 'kokos', 'ghjlkijl@gmail.com','+329495677677', ['tv','laptop']),
+//         new Client (2,'pol', ' yjgu', 'lkljjhl@gmail.com','+385646989966',['tv','laptop']),
+//         new Client (3,'anna', 'liuu', 'sfkrgtoy@gmail.com','+3845485785454',['tv','laptop']),
+//         new Client (4,'oleg', 'jynnty', 'tkrpykpkhh@gmail.com','+3816593322254',['tv','laptop']),
+//         new Client (5,'kolya', 'mybtrgrd', 'lhtpyoprti@gmail.com','+329013166456',['tv','laptop']),
+//         new Client (6,'olga', 'ulik.k', 'kpjkhg@gmail.com','+32949135648585',['tv','laptop']),
+//         new Client (7,'tom', 'lyutuh', 'fyo8ouop@gmail.com','+383231665659696',['tv','laptop']),
+//         new Client (8,'vasya', 'fhgkuol', 'goiljpoip@gmail.com','+383215446747',['tv','laptop']),
+//         new Client (9,'vera', 'mognyft', 'toiupip@gmail.com','+3832313666447',['tv','laptop']),
+//         new Client (10,'nik', 'ynbv', 'dyjgkuyiuyi@gmail.com','+32254466446678',['tv','laptop']),
+//         ]
+// console.log(clients);
+
+
+
+// task 5
+let clients=[
+    new Client (1,'max', 'kokos', 'ghjlkijl@gmail.com','+329495677677', ['tv','laptop', 'phone']),
+    new Client (2,'pol', ' yjgu', 'lkljjhl@gmail.com','+385646989966',['tv','laptop']),
+    new Client (3,'anna', 'liuu', 'sfkrgtoy@gmail.com','+3845485785454',['tv','laptop', 'iron']),
+    new Client (4,'oleg', 'jynnty', 'tkrpykpkhh@gmail.com','+3816593322254',['tv','laptop']),
+    new Client (5,'kolya', 'mybtrgrd', 'lhtpyoprti@gmail.com','+329013166456',['tv','laptop']),
+    new Client (6,'olga', 'ulik.k', 'kpjkhg@gmail.com','+32949135648585',['tv','laptop','iron']),
+    new Client (7,'tom', 'lyutuh', 'fyo8ouop@gmail.com','+383231665659696',['tv']),
+    new Client (8,'vasya', 'fhgkuol', 'goiljpoip@gmail.com','+383215446747',['tv','laptop']),
+    new Client (9,'vera', 'mognyft', 'toiupip@gmail.com','+3832313666447',['tv','laptop']),
+    new Client (10,'nik', 'ynbv', 'dyjgkuyiuyi@gmail.com','+32254466446678',['tv','laptop','phone','iron']),
+]
+const sort =clients.sort((a,b)=> a.order.length-b.order.length);
+    console.log(sort);
+
+</script>
+</body>
+</html>
