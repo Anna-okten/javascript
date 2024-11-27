@@ -9,6 +9,11 @@
 </head>
 <body>
 <script>
+   fetch ('https://dummyjson.com/recipes?limit=50')
+       .then(value => value.json())
+       .then(recipesObject=>{
+           console.log(recipesObject)
+       });
 
 </script>
 </body>
